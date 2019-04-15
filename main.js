@@ -89,7 +89,7 @@ class Game
         });
 
         if (this.health <= 0)
-            alert("Tu es mort, boloss.");
+            alert("You died.");
         this.renderer.render(this.mainContainer);
         requestAnimationFrame(this.update.bind(this));
     }
